@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .wallet {
+            margin-top: 10px;
+            font-size: 40px;
+            width: 100%;
+            max-width: 420px;
+        }
+
+        .wallet2 {
+            width: 100%;
+            max-width: 380px;
+        }
+
+        p {
+            color: white;
+            font-weight: bolder;
+        }
+
+        body {
+            background-color: black;
+        }
+
+        .star {
+            width: 50px;
+            height: 50px;
+        }
+
+        .wallet1,
+        .monkey,
+        .goldman {
+            width: 100%;
+            height: auto;
+            max-width: 500px;
+            max-height: 500px;
+        }
+
+        .whole,
+        .whole1,
+        .whole2 {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+            font-size: 30px;
+        }
+
+        .total {
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+            padding: 20px;
+        }
+
+        @media (max-width: 1024px) {
+            .wallet {
+                font-size: 35px;
+            }
+
+            .star {
+                width: 45px;
+                height: 45px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .wallet {
+                font-size: 30px;
+            }
+
+            .star {
+                width: 40px;
+                height: 40px;
+            }
+
+            h1 {
+                font-size: 25px;
+            }
+
+            .whole,
+            .whole1,
+            .whole2 {
+                gap: 15px;
+            }
+
+            .total {
+                gap: 30px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .wallet {
+                font-size: 25px;
+            }
+
+            .star {
+                width: 35px;
+                height: 35px;
+            }
+
+            h1 {
+                font-size: 20px;
+            }
+
+            .wallet2 {
+                font-size: 14px;
+            }
+
+            .whole,
+            .whole1,
+            .whole2 {
+                flex-direction: column;
+                text-align: center;
+                gap: 10px;
+            }
+
+            .wallet1,
+            .monkey,
+            .goldman {
+                max-width: 300px;
+                max-height: 300px;
+            }
+
+            .total {
+                gap: 20px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>How It Works</h1>
+    <div class="total">
+        <div class="whole">
+            <img class="wallet1" src="images/wallet.svg" alt="">
+            <div class="text">
+                <img class="star" src="images/filled_star.svg" alt="">
+                <p class="wallet">Setup And Connect Your Wallet</p>
+                <p class="wallet2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+        <div class="whole1">
+            <div class="text">
+                <img class="star" src="images/filled_star.svg" alt="">
+                <p class="wallet">Create Your Own Digital NFT</p>
+                <p class="wallet2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+            <img class="monkey" src="images/monkey.svg" alt="">
+        </div>
+        <div class="whole2">
+            <img class="goldman" src="images/goldman.svg" alt="">
+            <div class="text">
+                <p class="wallet">Setup And Connect Your Wallet</p>
+                <p class="wallet2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                <img class="star" src="images/filled_star.svg" alt="">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
